@@ -15,8 +15,9 @@
         android:gravity="center">
 
        <de.hdodenhof.circleimageview.CircleImageView
-           android:layout_width="250dp"
-           android:layout_height="250dp"
+           android:id="@+id/profileImg"
+           android:layout_width="150dp"
+           android:layout_height="150dp"
            app:civ_border_width="2dp"
            app:civ_border_color="#000000"
            android:src="@drawable/bts"/>
